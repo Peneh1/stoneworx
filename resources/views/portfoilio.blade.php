@@ -32,13 +32,13 @@
                     <div class="content-holder">
                         <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
                         <div class="text-holder">
-                            <h6 class="title">WEB</h6>
-                            <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                          <h5  class="title">180 bedford - 144 units</h5>
+                          <a href="portfoiloi/pop" class="btn btn-primary btn-lg">See More</a>
                         </div>
                     </div>   
                 </div>             
             </div>
-            
+            {{--}}
             <div class="col-md-6 col-lg-4 web new">
                 <div class="portfolio-item">
                     <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
@@ -185,6 +185,8 @@
                     </div>
                 </div>                                                   
             </div>
+
+            {{--}}
         </div>   
     </div>            
 </section>
