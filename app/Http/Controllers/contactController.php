@@ -14,4 +14,16 @@ class contactController extends Controller
             'title' => 'Contact'
         ]);
     }
+
+    public function handle_request(Request $request){
+
+        $form = $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'subject' => 'required',
+            'message' => 'required'
+        ]);
+        
+
+    }
 }
