@@ -25,19 +25,21 @@
         </div>
  {{--}}
         <div class="portfolio-container"> 
-
+            @foreach ($portfolios as $portfolio)
+                
             <div class="col-md-6 col-lg-4 web new">
                 <div class="portfolio-item">
-                    <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                    <img src="{{$portfolio['img_src']}}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                     <div class="content-holder">
-                        <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                        <a class="img-popup" href="{{$portfolio['img_src']}}"></a>
                         <div class="text-holder">
-                          <h5  class="title">180 bedford - 144 units</h5>
-                          <a href="portfoiloi/pop" class="btn btn-primary btn-lg">See More</a>
+                          <h5  class="title">{{$portfolio['title']}}</h5>
+                          <a href="{{$portfolio['link']}}" class="btn btn-primary btn-lg">See More</a>
                         </div>
                     </div>   
                 </div>             
             </div>
+            @endforeach
             {{--}}
             <div class="col-md-6 col-lg-4 web new">
                 <div class="portfolio-item">

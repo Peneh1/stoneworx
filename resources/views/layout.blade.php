@@ -7,9 +7,9 @@
     <meta name="author" content="Devcrud">
     <title>{{$page_title}}</title>
     <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="/assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + LeadMark main styles -->
-	<link rel="stylesheet" href="assets/css/leadmark.css">
+	<link rel="stylesheet" href="/assets/css/leadmark.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -17,7 +17,7 @@
     <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="assets/imgs/logo.png" alt="Stoneworx">
+                <img src="/assets/imgs/logo.png" alt="Stoneworx">
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -64,17 +64,17 @@
     </section>
 	
 	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+	<script src="/assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- Isotope -->
-    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    <script src="/assets/vendors/isotope/isotope.pkgd.js"></script>
 
     <!-- LeadMark js -->
-    <script src="assets/js/leadmark.js"></script>
+    <script src="/assets/js/leadmark.js"></script>
 
 </body>
 </html>
