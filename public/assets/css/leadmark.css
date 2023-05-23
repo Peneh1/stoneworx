@@ -5057,8 +5057,9 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 0;
+  margin: 5px;
 }
 
 .card > hr {
@@ -11761,3 +11762,4 @@ textarea.form-control {
   border: none;
   filter:opacity(0, 100)
 }
+

@@ -14,4 +14,14 @@ class homePageController extends Controller
             'title' => 'Stoneworx'
         ]);
     }
+
+    public function about(){
+        return view('about',[
+            'page_title' => 'Stoneworx | About',
+            'subtitle' => 'Who we are',
+            'title' => 'About'
+        ]);
+    }
+
+
 }

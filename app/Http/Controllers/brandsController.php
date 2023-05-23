@@ -14,7 +14,7 @@ class brandsController extends Controller
 
         return view('brands',[
             'page_title' => 'Stoneworx | Brands',
-            'subtitle' => 'StoneWorx',
+            'subtitle' => 'Brands we carry',
             'title' => 'Brands',
             'brands' => $brands
         ]);

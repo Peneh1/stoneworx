@@ -30,6 +30,9 @@ Route::post('/contact', [contactController::class, 'handle_request']);
 
 Route::get('/brands', [brandsController::class, 'brands']);
 
+Route::get('/about', [homePageController::class, 'about']);
+
+
 
 
 

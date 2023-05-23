@@ -7,27 +7,25 @@
     <div class="container">
         <h6 class="section-title text-center">Our Portfolio</h6>
         <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
-{{--}}
+
  
         <div class="filters">
-            <a href="#" data-filter=".new" class="active">
-                New
+            <a href="#" data-filter=".new " class="active">
+                All 
             </a>
-            <a href="#" data-filter=".advertising">
-                Advertising
+            <a href="#" data-filter=".commercial">
+                Commercial 
             </a>
-            <a href="#" data-filter=".branding">
-                Branding
+            <a href="#" data-filter=".residential">
+                Residential
             </a>
-            <a href="#" data-filter=".web">
-                Web
-            </a>
+            
         </div>
- {{--}}
+ 
         <div class="portfolio-container"> 
             @foreach ($portfolios as $portfolio)
                 
-            <div class="col-md-6 col-lg-4 web new">
+            <div class="col-md-6 col-lg-4 new {{$portfolio['type']}} ">
                 <div class="portfolio-item">
                     <img src="{{$portfolio['img_src']}}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                     <div class="content-holder">

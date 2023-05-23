@@ -17,6 +17,7 @@ class Portfolio extends Model
               'link' => '/portfolio/420-gates',
               'img_1' => '/assets/imgs/portfolio/420-gates/1.jpeg',
               'img_2' => '/assets/imgs/portfolio/420-gates/2.jpeg',
+              'type' => 'commercial'
               
              ],
         '10lexington81units' => [
@@ -25,6 +26,7 @@ class Portfolio extends Model
               'link' => '/portfolio/10lexington81units',
               'img_1' => '/assets/imgs/portfolio/10lexington81units/1.jpeg',
               'img_2' => '/assets/imgs/portfolio/10lexington81units/2.jpeg',
+              'type' => 'residential'
                 
                ],
 
@@ -34,6 +36,7 @@ class Portfolio extends Model
               'link' => '/portfolio/22centralave200units',
               'img_1' => '/assets/imgs/portfolio/22centralave200units/1.jpeg',
               'img_2' => '/assets/imgs/portfolio/22centralave200units/2.jpeg',
+              'type' => 'commercial'
                 
                ],
 
@@ -43,6 +46,7 @@ class Portfolio extends Model
               'link' => '/portfolio/99pratt99units',
               'img_1' => '/assets/imgs/portfolio/99pratt99units/1.jpeg',
               'img_2' => '/assets/imgs/portfolio/99pratt99units/2.jpeg',
+              'type' => 'commercial'
                 
                ],
 
@@ -52,6 +56,7 @@ class Portfolio extends Model
               'link' => '/portfolio/200e135240units',
               'img_1' => '/assets/imgs/portfolio/200e135240units/1.jpeg',
               'img_2' => '/assets/imgs/portfolio/200e135240units/2.jpeg',
+              'type' => 'commercial'
                 
                ],
                '380grove39units' => [
@@ -60,6 +65,7 @@ class Portfolio extends Model
                 'link' => '/portfolio/380grove39units',
                 'img_1' => '/assets/imgs/portfolio/380grove39units/1.jpeg',
                 'img_2' => '/assets/imgs/portfolio/380grove39units/2.jpeg',
+                'type' => 'residential'
                 
                ],
 
@@ -69,6 +75,7 @@ class Portfolio extends Model
                 'link' => '/portfolio/715park70units',
                 'img_1' => '/assets/imgs/portfolio/715park70units/1.jpeg',
                 'img_2' => '/assets/imgs/portfolio/715park70units/2.jpeg',
+                'type' => 'residential'
                 
                ],
 
@@ -78,6 +85,7 @@ class Portfolio extends Model
                 'link' => '/portfolio/933rogers64units',
                 'img_1' => '/assets/imgs/portfolio/933rogers64units/1.jpeg',
                 'img_2' => '/assets/imgs/portfolio/933rogers64units/2.jpeg',
+                'type' => 'residential'
                 
                ],
 
@@ -87,6 +95,7 @@ class Portfolio extends Model
                 'link' => '/portfolio/1120stjohns76units',
                 'img_1' => '/assets/imgs/portfolio/1120stjohns76units/1.jpeg',
                 'img_2' => '/assets/imgs/portfolio/1120stjohns76units/2.jpeg',
+                'type' => 'residential'
                 
                ],
 
@@ -96,6 +105,7 @@ class Portfolio extends Model
                 'link' => '/portfolio/1351brooklyn44units',
                 'img_1' => '/assets/imgs/portfolio/1351brooklyn44units/1.jpeg',
                 'img_2' => '/assets/imgs/portfolio/1351brooklyn44units/2.jpeg',
+                'type' => 'residential'
                 
                ],
 
@@ -105,6 +115,7 @@ class Portfolio extends Model
                 'link' => '/portfolio/1543e_1950units',
                 'img_1' => '/assets/imgs/portfolio/1543e_1950units/1.jpeg',
                 'img_2' => '/assets/imgs/portfolio/1543e_1950units/2.jpeg',
+                'type' => 'residential'
                 
                ],
 
@@ -114,6 +125,7 @@ class Portfolio extends Model
                 'link' => '/portfolio/2069honeywell51units',
                 'img_1' => '/assets/imgs/portfolio/2069honeywell51units/1.jpeg',
                 'img_2' => '/assets/imgs/portfolio/2069honeywell51units/2.jpeg',
+                'type' => 'commercial'
                 
                ],
 
@@ -123,6 +135,7 @@ class Portfolio extends Model
                 'link' => '/portfolio/4557davis158units',
                 'img_1' => '/assets/imgs/portfolio/4557davis158units/1.jpeg',
                 'img_2' => '/assets/imgs/portfolio/4557davis158units/2.jpeg',
+                'type' => 'residential'
                 
                ],
               
