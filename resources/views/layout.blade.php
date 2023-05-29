@@ -59,9 +59,9 @@
         <div class="mouse-icon"><div class="wheel"></div></div>
     </header>
 @yield('page_content')
-<div class="section has-img-bg pb-0">
+<div class="section pb-0">
             <footer class="mt-5 py-4 border-top border-secondary">
-                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, Stonworx | All rights reserved </p>     
+                <p class="mb-0 small" style="text-align:center">&copy; <script>document.write(new Date().getFullYear())</script>, Stonworx | All rights reserved </p>     
             </footer>
 </div>
             <!-- End of Page Footer -->  

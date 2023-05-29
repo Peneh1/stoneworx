@@ -5,6 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use function Ramsey\Uuid\v1;
+
 class Portfolio extends Model
 {
     use HasFactory;
@@ -138,6 +140,138 @@ class Portfolio extends Model
                 'type' => 'residential'
                 
                ],
+
+               '103Liberty54Units' => [
+                'img_src' => '/assets/imgs/portfolio/103Liberty54Units/main.jpeg',
+                'title' => '103 Liberty - 54 Units',
+                'link' => '/portfolio/103Liberty54Units',
+                'img_1' => '/assets/imgs/portfolio/103Liberty54Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/103Liberty54Units/2.jpeg',
+                'type' => 'residential'
+                
+               ],
+
+               '136Summit99Units' => [
+                'img_src' => '/assets/imgs/portfolio/136Summit99Units/main.jpeg',
+                'title' => '136 Summit - 99 Units',
+                'link' => '/portfolio/136Summit99Units',
+                'img_1' => '/assets/imgs/portfolio/136Summit99Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/136Summit99Units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '169johnson52units' => [
+                'img_src' => '/assets/imgs/portfolio/169johnson52units/main.jpeg',
+                'title' => '169 John - 52 Units',
+                'link' => '/portfolio/169johnson52units',
+                'img_1' => '/assets/imgs/portfolio/169johnson52units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/169johnson52units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '26quincy43units' => [
+                'img_src' => '/assets/imgs/portfolio/26quincy43units/main.jpeg',
+                'title' => '26 Quincy - 43 Units',
+                'link' => '/portfolio/26quincy43units',
+                'img_1' => '/assets/imgs/portfolio/26quincy43units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/26quincy43units/2.jpeg',
+                'type' => 'residential'
+                
+               ],
+
+               '89Bartlett58Units' => [
+                'img_src' => '/assets/imgs/portfolio/89Bartlett58Units/main.jpeg',
+                'title' => '89 Bartlett - 58 Units',
+                'link' => '/portfolio/89Bartlett58Units',
+                'img_1' => '/assets/imgs/portfolio/89Bartlett58Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/89Bartlett58Units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '91attorney42units' => [
+                'img_src' => '/assets/imgs/portfolio/91attorney42units/main.jpeg',
+                'title' => '91 Attorney - 42 Units',
+                'link' => '/portfolio/91attorney42units',
+                'img_1' => '/assets/imgs/portfolio/91attorney42units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/91attorney42units/2.jpeg',
+                'type' => 'residential'
+                
+               ],
+
+               '223n_8th95units' => [
+                'img_src' => '/assets/imgs/portfolio/223n_8th95units/main.jpeg',
+                'title' => '223 N 8th - 95 Units',
+                'link' => '/portfolio/223n_8th95units',
+                'img_1' => '/assets/imgs/portfolio/223n_8th95units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/223n_8th95units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '445Vanderbilt44Units' => [
+                'img_src' => '/assets/imgs/portfolio/445Vanderbilt44Units/main.jpeg',
+                'title' => '455 Vanderbilt - 44 Units',
+                'link' => '/portfolio/445Vanderbilt44Units',
+                'img_1' => '/assets/imgs/portfolio/445Vanderbilt44Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/445Vanderbilt44Units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '564st_johns200units' => [
+                'img_src' => '/assets/imgs/portfolio/564st_johns200units/main.jpeg',
+                'title' => '564st Johns - 200 Units',
+                'link' => '/portfolio/564st_johns200units',
+                'img_1' => '/assets/imgs/portfolio/564st_johns200units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/564st_johns200units/2.jpeg',
+                'type' => 'residential'
+                
+               ],
+
+               '979Pacific69Units' => [
+                'img_src' => '/assets/imgs/portfolio/979Pacific69Units/main.jpeg',
+                'title' => '979 Pacific - 69 Units',
+                'link' => '/portfolio/979Pacific69Units',
+                'img_1' => '/assets/imgs/portfolio/979Pacific69Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/979Pacific69Units/2.jpeg',
+                'type' => 'residential'
+                
+               ],
+
+               '1875atlantic118units' => [
+                'img_src' => '/assets/imgs/portfolio/1875atlantic118units/main.jpeg',
+                'title' => '1875 Atlantic - 118 Units',
+                'link' => '/portfolio/1875atlantic118units',
+                'img_1' => '/assets/imgs/portfolio/1875atlantic118units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/1875atlantic118units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '8754thAve150Units' => [
+                'img_src' => '/assets/imgs/portfolio/8754thAve150Units/main.jpeg',
+                'title' => '875 4th Ave - 150 Units',
+                'link' => '/portfolio/8754thAve150Units',
+                'img_1' => '/assets/imgs/portfolio/8754thAve150Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/8754thAve150Units/2.jpeg',
+                'type' => 'residential'
+                
+               ],
+
+               '156060th143Units' => [
+                'img_src' => '/assets/imgs/portfolio/156060th143Units/main.jpeg',
+                'title' => '1560 60th - 143 Units',
+                'link' => '/portfolio/156060th143Units',
+                'img_1' => '/assets/imgs/portfolio/156060th143Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/156060th143Units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               
               
               
               
