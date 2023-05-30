@@ -10,9 +10,9 @@
 
  
         <div class="filters">
-            <a href="#" data-filter=".new " class="active">
+          {{--}}  <a href="#" data-filter=".new " class="active">
                 All 
-            </a>
+            </a>{{--}}
             <a href="#" data-filter=".commercial">
                 Commercial 
             </a>

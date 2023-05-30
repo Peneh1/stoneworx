@@ -5057,7 +5057,7 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(198, 208, 220, 0.2) 0px 4px 24px;
   border-radius: 0;
   margin: 5px;
 }
@@ -11552,11 +11552,11 @@ textarea.form-control {
 .section {
   padding: 80px 0;
 }
-
+/*
 .section:nth-child(even) {
   background: #f5f8fc;
 }
-
+*/
 .section .section-devider {
   display: block;
   height: 1px;
@@ -11652,7 +11652,7 @@ textarea.form-control {
 }
 
 .portfolio-section .filters {
-  border: 2px solid #dee2e6;
+  /*border: 2px solid #dee2e6;*/
   border-radius: 100px;
   padding: 2px;
   margin: 0 auto 20px;
