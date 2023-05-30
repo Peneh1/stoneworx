@@ -23,6 +23,12 @@ class contactController extends Controller
             'subject' => 'required',
             'message' => 'required'
         ]);
+
+        
+
+        return redirect('/contact#contact')->with('success', 'Thank you for getting in touch!<br>
+
+        We appreciate you contacting us about <b>' . $request->subject . '</b>.<br> One of our customer happiness members will be getting back to you shortly. <br> Have a great day!');
         
 
     }

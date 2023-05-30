@@ -14,9 +14,18 @@
                 <p style="color:red">{{$error}}</p>
                 @endforeach
                 @endif
+                
+               
+                                {{--Success--}}
+                @if (Session::has('success'))
+
+                    <p style="color:green">{!!Session::get('success')!!}</p>;
+
+                @endif
 
 
-                <form action="" method="POST">
+
+                <form action="#contact" method="POST">
                     @csrf
                     <h4 class="mb-4">Drop Us A Line</h4>
                     <div class="form-row">
