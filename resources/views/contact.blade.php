@@ -19,7 +19,7 @@
                                 {{--Success--}}
                 @if (Session::has('success'))
 
-                    <p style="color:green">{!!Session::get('success')!!}</p>;
+                    <p style="color:green">{!!Session::get('success')!!}</p>
 
                 @endif
 
