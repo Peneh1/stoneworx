@@ -57,7 +57,7 @@
                 <p class="mb-4">We are conveniently located at <a href="https://maps.google.com/maps/dir//872+E+52nd+St+Brooklyn,+NY+11203/@40.6388476,-73.9273252,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c25ca583a8f199:0x50d8f28c5d98ec03">872 E 52 st Brooklyn NY 11203</a></p>
 
                 <h6 class="mb-0">Show Room</h6>
-                <p class="mb-4">Our showroom is open, but operating with limited hours please contact us to Schedule a visit!</p>
+                <p class="mb-4">Our showroom  is open Monday to Friday 8-5,<br> Please contact us to schedule a visit</p>
 
                 
                 <p></p>

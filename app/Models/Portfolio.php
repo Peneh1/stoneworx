@@ -271,6 +271,66 @@ class Portfolio extends Model
                 
                ],
 
+               '39high84units' => [
+                'img_src' => '/assets/imgs/portfolio/39high84units/main.jpeg',
+                'title' => '39 High - 84 Units',
+                'link' => '/portfolio/39high84units',
+                'img_1' => '/assets/imgs/portfolio/39high84units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/39high84units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '2913snyder41units' => [
+                'img_src' => '/assets/imgs/portfolio/2913snyder41units/main.jpeg',
+                'title' => '2913 snyder - 41 Units',
+                'link' => '/portfolio/2913snyder41units',
+                'img_1' => '/assets/imgs/portfolio/2913snyder41units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/2913snyder41units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '71-82Parsons94Units' => [
+                'img_src' => '/assets/imgs/portfolio/71-82Parsons94Units/main.jpeg',
+                'title' => '71-82cParsons - 94 Units',
+                'link' => '/portfolio/71-82Parsons94Units',
+                'img_1' => '/assets/imgs/portfolio/71-82Parsons94Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/71-82Parsons94Units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '219Lenox50Units' => [
+                'img_src' => '/assets/imgs/portfolio/219Lenox50Units/main.jpeg',
+                'title' => '219 Lenox - 50 Units',
+                'link' => '/portfolio/219Lenox50Units',
+                'img_1' => '/assets/imgs/portfolio/219Lenox50Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/219Lenox50Units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '26-304th100Units' => [
+                'img_src' => '/assets/imgs/portfolio/26-304th100Units/main.jpeg',
+                'title' => '26-30 4th - 100 Units',
+                'link' => '/portfolio/26-304th100Units',
+                'img_1' => '/assets/imgs/portfolio/26-304th100Units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/26-304th100Units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '2045ocean51units' => [
+                'img_src' => '/assets/imgs/portfolio/2045ocean51units/main.jpeg',
+                'title' => '2045 Ocean - 51 Units',
+                'link' => '/portfolio/2045ocean51units',
+                'img_1' => '/assets/imgs/portfolio/2045ocean51units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/2045ocean51units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
                
               
               

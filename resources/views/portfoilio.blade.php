@@ -32,7 +32,7 @@
                         <a class="img-popup" href="{{$portfolio['img_src']}}"></a>
                         <div class="text-holder">
                           <h5  class="title">{{$portfolio['title']}}</h5>
-                          <a href="{{$portfolio['link']}}" class="btn btn-primary btn-lg">See More</a>
+                          <a href="{{$portfolio['link']}}" class="btn btn-primary btn-lg">See Inside</a>
                         </div>
                     </div>   
                 </div>             
