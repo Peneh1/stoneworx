@@ -29,16 +29,16 @@
                     @csrf
                     <h4 class="mb-4">Drop Us A Line</h4>
                     <div class="form-row">
-                        <div class="form-group col-sm-4">
+                        <div class="form-group col-sm-4 ">
                             <input type="text" class="form-control rounded-0 bg-transparent" name="name" placeholder="Name" value="{{old('name')}}">
                         </div>
-                        <div class="form-group col-sm-4">
+                        <div class="form-group col-sm-4 ">
                             <input type="email" class="form-control rounded-0 bg-transparent" name="email" placeholder="Email" value="{{old('email')}}">
                         </div>
-                        <div class="form-group col-sm-4">
+                        <div class="form-group col-sm-4 ">
                             <input type="text" class="form-control rounded-0 bg-transparent" name="subject" placeholder="Subject" value="{{old('subject')}}">
                         </div>
-                        <div class="form-group col-12">
+                        <div class="form-group col-12 ">
                             <textarea name="message" id="" cols="30" rows="4" class="form-control rounded-0 bg-transparent" placeholder="Message" >{{old('message')}}</textarea>
 
                         </div>

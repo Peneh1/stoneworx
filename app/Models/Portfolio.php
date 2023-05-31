@@ -331,6 +331,36 @@ class Portfolio extends Model
                 
                ],
 
+               '2001nostrand53units' => [
+                'img_src' => '/assets/imgs/portfolio/2001nostrand53units/main.jpeg',
+                'title' => '2001 Nostround - 53 Units',
+                'link' => '/portfolio/2001nostrand53units',
+                'img_1' => '/assets/imgs/portfolio/2001nostrand53units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/2001nostrand53units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '2flanders80units' => [
+                'img_src' => '/assets/imgs/portfolio/2flanders80units/main.jpeg',
+                'title' => '2 Flanders - 80 Units',
+                'link' => '/portfolio/2flanders80units',
+                'img_1' => '/assets/imgs/portfolio/2flanders80units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/2flanders80units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
+               '832lexington46units' => [
+                'img_src' => '/assets/imgs/portfolio/832lexington46units/main.jpeg',
+                'title' => '832 Lexington - 46 Units',
+                'link' => '/portfolio/832lexington46units',
+                'img_1' => '/assets/imgs/portfolio/832lexington46units/1.jpeg',
+                'img_2' => '/assets/imgs/portfolio/832lexington46units/2.jpeg',
+                'type' => 'commercial'
+                
+               ],
+
                
               
               
