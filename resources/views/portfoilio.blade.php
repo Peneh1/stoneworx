@@ -1,6 +1,22 @@
 @extends('layout')
 
 @section('page_content')
+<style>
+    @font-face {
+  font-family: 'raleway_regular';
+  src: url('/assets/fonts/Raleway/static/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'raleway_thin';
+  src: url('/assets/fonts/Raleway/static/Raleway-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'raleway_bold';
+  src: url('/assets/fonts/Raleway/static/Raleway-Bold.ttf');
+}
+</style>
 
 <!-- Portfolio Section -->
 <section id="portfolio" class="section portfolio-section">
@@ -13,10 +29,10 @@
           {{--}}  <a href="#" data-filter=".new " class="active">
                 All 
             </a>{{--}}
-            <a href="#" data-filter=".commercial">
+            <a style="font-family: Raleway_Bold; font-size:24px;" href="#" data-filter=".commercial">
                 Commercial 
             </a>
-            <a href="#" data-filter=".residential">
+            <a style="font-family: Raleway_Bold; font-size:24px;" href="#" data-filter=".residential">
                 Residential
             </a>
             
@@ -27,12 +43,12 @@
                 
             <div class="col-md-6 col-lg-4 new {{$portfolio['type']}} ">
                 <div class="portfolio-item">
-                    <img src="{{$portfolio['img_src']}}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                    <img src="{{$portfolio['img_src']}}" class="img-fluid">
                     <div class="content-holder">
                         <a class="img-popup" href="{{$portfolio['img_src']}}"></a>
                         <div class="text-holder">
-                          <h5  class="title">{{$portfolio['title']}}</h5>
-                          <a href="{{$portfolio['link']}}" class="btn btn-primary btn-lg">See Inside</a>
+                          <h5  class="title">{!!$portfolio['title']!!}</h5>
+                          <a style="font-family: Raleway_Bold" href="{{$portfolio['link']}}" class="btn btn-primary btn-lg">View Project</a>
                         </div>
                     </div>   
                 </div>             

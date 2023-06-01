@@ -10,6 +10,26 @@
     <link rel="stylesheet" href="/assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + LeadMark main styles -->
 	<link rel="stylesheet" href="/assets/css/leadmark.css">
+
+
+    <style>
+        @font-face {
+      font-family: 'raleway_regular';
+      src: url('/assets/fonts/Raleway/static/Raleway-Regular.ttf');
+    }
+    
+    @font-face {
+      font-family: 'raleway_thin';
+      src: url('/assets/fonts/Raleway/static/Raleway-Light.ttf');
+    }
+    
+    @font-face {
+      font-family: 'raleway_bold';
+      src: url('/assets/fonts/Raleway/static/Raleway-Bold.ttf');
+    }
+    </style>
+
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
