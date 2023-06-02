@@ -15,7 +15,7 @@
         <div class="row align-items-center">
 
 
-            <div class="col-md-7" style="padding-top: 10%">
+            <div class="col-md-7" style="padding-top: 10%; padding-bottom: 10%">
                 @if($errors->isNotEmpty())
                 @foreach ($errors->all() as $error)
                 <p style="color:red">{{$error}}</p>

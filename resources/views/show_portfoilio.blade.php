@@ -40,7 +40,9 @@
                 </div>             
             </div>
             
-        </div>   
+        </div>  
+        <a href="/portfolio">← Back to Portfolio</a>
+ 
     </div>            
 </section>
 <!-- End of portfolio section -->
