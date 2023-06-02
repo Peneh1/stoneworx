@@ -17,7 +17,6 @@ class brandsController extends Controller
             'subtitle' => 'Brands we carry',
             'title' => 'Brands',
             'brands' => $brands,
-            'style' => 'affix-top'
         ]);
     }
 }

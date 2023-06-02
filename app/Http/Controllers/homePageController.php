@@ -10,9 +10,9 @@ class homePageController extends Controller
     public function index(){
         return view('welcome',[
             'page_title' => 'Stoneworx | Home',
-            'subtitle' => 'subtitle',
-            'title' => 'Stoneworx',
-            'style' => ''
+            'subtitle' => 'Add fashion and function to your home cooking experience!',
+            'title' => 'Your Dream Kitchen Awaits'
+           
 
         ]);
     }
@@ -21,8 +21,7 @@ class homePageController extends Controller
         return view('about',[
             'page_title' => 'Stoneworx | About',
             'subtitle' => 'Who we are',
-            'title' => 'About',
-            'style' => 'affix-top'
+            'title' => 'About'
 
 
         ]);
