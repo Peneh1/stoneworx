@@ -1,5 +1,12 @@
 @extends('layout')
 
+@section('header')
+<div style="background: url(/assets/imgs/header.jpg) no-repeat center center fixed;   background-size: cover;">
+<div style="width:100%; height:7vw; background: rgba(0,0,0,0.7); "></div>
+</div>
+
+@endsection
+
 @section('page_content')
 
  <!-- Contact Section -->
@@ -8,7 +15,7 @@
         <div class="row align-items-center">
 
 
-            <div class="col-md-7">
+            <div class="col-md-7" style="padding-top: 10%">
                 @if($errors->isNotEmpty())
                 @foreach ($errors->all() as $error)
                 <p style="color:red">{{$error}}</p>
@@ -28,7 +35,7 @@
                 <form action="#contact" method="POST">
                     @csrf
                     <h4 class="mb-4">Drop Us A Line</h4>
-                    <div class="form-row">
+                    <div class="form-row" style="padding-top: 10%">
                         <div class="form-group col-sm-4 ">
                             <input type="text" class="form-control rounded-0 bg-transparent" name="name" placeholder="Name" value="{{old('name')}}">
                         </div>

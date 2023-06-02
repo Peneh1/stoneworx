@@ -16,7 +16,8 @@ class brandsController extends Controller
             'page_title' => 'Stoneworx | Brands',
             'subtitle' => 'Brands we carry',
             'title' => 'Brands',
-            'brands' => $brands
+            'brands' => $brands,
+            'style' => 'affix-top'
         ]);
     }
 }

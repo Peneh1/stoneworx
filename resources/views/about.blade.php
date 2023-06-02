@@ -1,5 +1,12 @@
 @extends('layout')
 
+@section('header')
+<div style="background: url(/assets/imgs/header.jpg) no-repeat center center fixed;   background-size: cover;">
+<div style="width:100%; height:7vw; background: rgba(0,0,0,0.7); "></div>
+</div>
+
+@endsection
+
 @section('page_content')
 
 <!-- About Section -->

@@ -11,7 +11,9 @@ class homePageController extends Controller
         return view('welcome',[
             'page_title' => 'Stoneworx | Home',
             'subtitle' => 'subtitle',
-            'title' => 'Stoneworx'
+            'title' => 'Stoneworx',
+            'style' => ''
+
         ]);
     }
 
@@ -19,7 +21,10 @@ class homePageController extends Controller
         return view('about',[
             'page_title' => 'Stoneworx | About',
             'subtitle' => 'Who we are',
-            'title' => 'About'
+            'title' => 'About',
+            'style' => 'affix-top'
+
+
         ]);
     }
 

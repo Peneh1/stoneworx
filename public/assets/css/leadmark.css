@@ -11208,8 +11208,11 @@ textarea.form-control {
   }
 }
 
+
+
 .navbar.navbar-dark .navbar-brand {
   color: #fff;
+
 }
 
 .navbar.navbar-light .navbar-brand {
@@ -11322,7 +11325,7 @@ textarea.form-control {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff5a29;
+  background: #545454;
   border-radius: 20px;
 }
 
