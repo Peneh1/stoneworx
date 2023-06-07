@@ -19,9 +19,11 @@
 
 
     <div class="container">
-        <h6 class="section-title text-center mb-0">Brands</h6>
+        <div id="brands">
+        <h6 class="section-title text-center mb-0"><a href="#brands"> Brands</a></h6>
         <h6 class="section-subtitle mb-5 text-center">We Carry</h6>
-
+        </div>
+        
         @foreach ($brands as $brand)
 
 
@@ -50,12 +52,56 @@
                     </div>
                 </div>
             </div>
+
+                <div class=" my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media mb-3">
+                              <h1>&bull; </h1>
+                               <img class="brand-img" style="margin:auto; width:120px; height:auto" src="{{$brand['img_url_3']}}" alt="{{$brand['company_name_3']}}">
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class=" my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media mb-3">
+                                <h1>&bull; </h1>  <img class="brand-img" style="margin:auto; width:120px; height:auto" src="{{$brand['img_url_4']}}" alt="{{$brand['company_name_4']}}">
+    
+                               
+                             
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
            
         </div>
 
         @endforeach
         
     </div>
+    <div style="margin-top:20%;" id="stone">
+        <h6 class="section-title text-center mb-0"><a href="#stone"> Natural Stone</a></h6>
+        <h6 class="section-subtitle mb-5 text-center"> We Carry</h6>
+        </div>
+        <div class="row" style="justify-content: center;">
+
+        <ul>
+
+        @foreach($stones as $i => $stone)
+                        <li style="margin:10px;">{{$stone}}</li>  
+
+                        @if($i %2 == 0)
+                    </div>
+                    <div class="row" style="justify-content: center;">
+                        @endif
+                 
+        @endforeach
+        </ul>
+        </div>
 </section>
 
 

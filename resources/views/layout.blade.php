@@ -109,7 +109,7 @@
 }
 .footer-social-icons {
     padding-top: 10px;
-    width: 280px;
+    width: 175px;
     display:block;
     margin: 0 auto;
 }
@@ -152,7 +152,7 @@ ul.social-icons {
 .fa-twitter:hover {
     background-color: #00aced;
 }
-.fa-rss {
+.fa-instagram {
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -161,8 +161,8 @@ ul.social-icons {
     transition: .5s;
     background-color: #322f30;
 }
-.fa-rss:hover {
-    background-color: #eb8231;
+.fa-instagram:hover {
+    background-color: #FCAF45;
 }
 .fa-youtube {
     padding:10px 14px;
@@ -206,10 +206,8 @@ ul.social-icons {
         <ul class="social-icons">
             <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
             <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-            <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
-            <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+            <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
             <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-            <li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li>
         </ul>
     </div>
           {{-- End Social media--}}

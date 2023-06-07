@@ -19,26 +19,21 @@
         <a href="/portfolio">← Back to Portfolio</a>
         <div class=""> 
            
-                
+             @forelse($portfolio['inside_img_src'] as $src)   
             <div style="margin: 10px auto;">
                 <div >
-                    <img style="margin: auto; width:100%" src="{{$portfolio['img_1']}}" >
+                    <img style="margin: auto; width:100%" src="{{$src}}" >
                     <div class="content-holder">
-                        <a style="margin: auto"  class="img-popup" href="{{$portfolio['img_1']}}"></a>
+                        <a style="margin: auto"  class="img-popup" href="{{$src}}"></a>
                         
                     </div>   
                 </div>             
             </div>
-
-            <div>
-                <div style="margin: 10px auto;">
-                    <img style="margin: auto; width:100%" src="{{$portfolio['img_2']}}" >
-                    <div class="content-holder">
-                        <a style="margin: auto" class="img-popup" href="{{$portfolio['img_2']}}"></a>
-                        
-                    </div>   
-                </div>             
-            </div>
+            @empty
+                <p class="section-title text-center">Comming Soon</p>
+            
+            @endforelse
+            
             
         </div>  
         <a href="/portfolio">← Back to Portfolio</a>
