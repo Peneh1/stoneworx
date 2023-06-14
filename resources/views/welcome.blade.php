@@ -3,8 +3,9 @@
 @section('header')
 <header class="header">
 <div class="overlay">
-    <h1 class="subtitle">{{$subtitle}}</h1>
     <h1 class="title">{!!$title!!}</h1>  
+    <h1 class="subtitle">{{$subtitle}}</h1>
+
 </div>  
 {{--}}
 <div class="shape">
