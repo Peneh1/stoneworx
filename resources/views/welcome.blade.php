@@ -4,7 +4,7 @@
 <header class="header">
 <div class="overlay">
     <h1 class="subtitle">{{$subtitle}}</h1>
-    <h1 class="title">{{$title}}</h1>  
+    <h1 class="title">{!!$title!!}</h1>  
 </div>  
 {{--}}
 <div class="shape">
@@ -24,34 +24,47 @@
     <!-- Service Section -->
     <section  id="service" class="section pt-0" >
         <div class="container" style="padding-top:10%">
-            <h6 class="section-title text-center">Our Service</h6>
-            <h6 class="section-subtitle text-center mb-5 pb-3">Voluptates architecto provident deserunt.</h6>
+            <h6 class="section-title text-center">OUR PROCESS</h6>
 
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 mb-md-0">
                         <div class="card-body">
-                            <small class="text-primary font-weight-bold">01</small>
-                            <h5 class="card-title mt-3"> Beatae quo <h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
+                            <h5 class="card-title mt-3">TEMPLATING<h5>
+                            <p class="mb-0">Once materials have been chosen,
+                                our expert templators will visit the
+                                job site, and use high-end laser
+                                technology to ensure
+                                measurement accuracy.
+                                </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 mb-md-0">
                         <div class="card-body">
-                            <small class="text-primary font-weight-bold">02</small>
-                            <h5 class="card-title mt-3">Delectus Suscipit<h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
+                            <h5 class="card-title mt-3">FABRICATION<h5>
+                            <p class="mb-0">In the fabrication stage, our team
+                                transforms raw marble and granite
+                                slabs into the finished product.
+                                This involves cutting, shaping, and
+                                edge profiling, using the latest
+                                cutting edge machinery.
+                                </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 mb-md-0">
                         <div class="card-body">
-                            <small class="text-primary font-weight-bold">03</small>
-                            <h5 class="card-title mt-3">Itaque harum<h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
+                            <h5 class="card-title mt-3">INSTALLATION<h5>
+                            <p class="mb-0">Our expert team will start the final
+                                installation process which
+                                includes site preparation, precise
+                                placement and alignment, secure
+                                attachment, seam treatment, edge
+                                finishing, final inspection, and
+                                finally, customer approval!</p>
                         </div>
                     </div>
                 </div>              
@@ -60,7 +73,7 @@
     </section>
     <!-- End OF Service Section -->
 
-    <!-- About Section -->
+    <!-- About Section --
     <section class="section" id="about">
         <div class="container">
             <div class="row justify-content-between">
@@ -89,14 +102,14 @@
             </div>              
         </div>
     </section>
-    <!-- End OF About Section -->
+    <-- End OF About Section -->
 
     
     <!-- Testmonial Section -->
     <section class="section" id="testmonial">
         <div class="container">
-            <h6 class="section-title text-center mb-0">Testmonials</h6>
-            <h6 class="section-subtitle mb-5 text-center">What Our Clients Says</h6>
+            <h6 class="section-title text-center mb-0">TESTIMONIALS</h6>
+            <h6 class="section-subtitle mb-5 text-center">Hear what our clients say about us</h6>
             <div class="row">
                 <div class="col-md-4 my-3 my-md-0">
                     <div class="card">
@@ -105,10 +118,15 @@
                                 <img class="testmonials-img mr-3" src="assets/imgs/avatar.jpg" alt="">
                                 <div class="media-body">
                                     <h6 class="mt-1 mb-0">John Doe</h6>
-                                    <small class="text-muted mb-0">Business Analyst</small>     
+                                    <small class="text-muted mb-0">Commercial Contractor</small>     
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">"Working with Stoneworx was a
+                                pleasure! Their team completed
+                                our project ahead of schedule
+                                without compromising quality.
+                                Impressed by their efficiency and
+                                attention to detail."</p>
                         </div>
                     </div>
                 </div>
@@ -119,10 +137,14 @@
                                 <img class="testmonials-img mr-3" src="assets/imgs/avatar-1.jpg" alt="">
                                 <div class="media-body">
                                     <h6 class="mt-1 mb-0">Maria Garcia</h6>
-                                    <small class="text-muted mb-0">Insurance Agent</small>      
+                                    <small class="text-muted mb-0">Kitchen Company</small>      
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">"Stoneworx is a top-notch marble
+                                and granite company. Their
+                                communication throughout the
+                                project was exceptional, ensuring
+                                a smooth workflow.”</p>
                         </div>
                     </div>
                 </div>
@@ -133,10 +155,17 @@
                                 <img class="testmonials-img mr-3" src="assets/imgs/avatar-2.jpg" alt="">
                                 <div class="media-body">
                                     <h6 class="mt-1 mb-0">Mason Miller</h6>
-                                    <small class="text-muted mb-0">Residential Appraiser</small>        
+                                    <small class="text-muted mb-0">Commercial Contractor</small>        
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">“The Stoneworx team exceeded
+                                all expectations. Their work is
+                                incredible, and they were always
+                                available to address any
+                                concerns. Their professionalism
+                                and quality craftsmanship make
+                                them my go-to choice for future
+                                projects.</p>
                         </div>
                     </div>
                 </div>

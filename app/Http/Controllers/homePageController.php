@@ -10,8 +10,8 @@ class homePageController extends Controller
     public function index(){
         return view('welcome',[
             'page_title' => 'Stoneworx | Home',
-            'subtitle' => 'Add fashion and function to your home cooking experience!',
-            'title' => 'Your Dream Kitchen Awaits'
+            'subtitle' => 'Stoneworx. Masters of stone and granite artistry.',
+            'title' => 'ELEGANCE, SET IN <span style="color:red">STONE</span>.'
            
 
         ]);
