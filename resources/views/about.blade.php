@@ -18,7 +18,7 @@
                     <p >We’re Stoneworx - your premier destination for custom granite and marble solutions. We
                         specialize in both commercial and residential projects, offering a seamless process from start to
                         finish. Our team goes the extra mile by handling every step, from precise measurements and
-                        laser templating to expert fabrication and meticulous installation</p>
+                        laser templating to expert fabrication and meticulous installation.</p>
             <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm">
                 </div>
                 <div class="col-md-6 pl-md-5">
