@@ -78,8 +78,6 @@
 ">
     {{-- Social media--}}
     <style>
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 .footer-social-icons a {
     text-decoration: none;
@@ -231,6 +229,10 @@ ul.social-icons {
 
     <!-- LeadMark js -->
     <script src="/assets/js/leadmark.js"></script>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+</style>
 
 </body>
 </html>

@@ -33,9 +33,9 @@
 
  
         <div class="filters">
-          {{--}}  <a href="#" data-filter=".new " class="active">
+           <a style="font-family: Raleway_Bold; font-size:24px;" href="#" data-filter=".new " class="active">
                 All 
-            </a>{{--}}
+            </a>
             <a style="font-family: Raleway_Bold; font-size:24px;" href="#" data-filter=".commercial">
                 Commercial 
             </a>

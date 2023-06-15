@@ -28,9 +28,30 @@
             <h6 class="section-title text-center">OUR PROCESS</h6>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card mb-4 mb-md-0">
+
+                        <div style="width: 40px; margin:auto"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ph" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="currentColor" d="M156.2 80H47.7A19.8 19.8 0 0 0 28 99.7v108.5A19.8 19.8 0 0 0 47.7 228h108.5a19.8 19.8 0 0 0 19.8-19.8V99.7A19.8 19.8 0 0 0 156.2 80ZM152 204H52V104h100ZM132 40a12 12 0 0 1 12-12h16a12 12 0 0 1 0 24h-16a12 12 0 0 1-12-12Zm96 8v8a12 12 0 0 1-24 0v-4h-4a12 12 0 0 1 0-24h8a20.1 20.1 0 0 1 20 20Zm0 48v16a12 12 0 0 1-24 0V96a12 12 0 0 1 24 0Zm0 56v8a20.1 20.1 0 0 1-20 20h-8a12 12 0 0 1 0-24h4v-4a12 12 0 0 1 24 0ZM76 56v-8a20.1 20.1 0 0 1 20-20h8a12 12 0 0 1 0 24h-4v4a12 12 0 0 1-24 0Z"></path></svg></div>
+                       
                         <div class="card-body">
+                            <small class="text-primary font-weight-bold">01</small>
+                            <h5 class="card-title mt-3">SELECTION<h5>
+                            <p class="mb-0">Once materials have been chosen,
+                                our expert templators will visit the
+                                job site, and use high-end laser
+                                technology to ensure
+                                measurement accuracy.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-4 mb-md-0">
+
+                        <div style="width: 40px; margin:auto"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--tabler" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12h15.75zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4"></path></svg></div>
+
+                        <div class="card-body">
+                            <small class="text-primary font-weight-bold">02</small>
                             <h5 class="card-title mt-3">TEMPLATING<h5>
                             <p class="mb-0">Once materials have been chosen,
                                 our expert templators will visit the
@@ -41,9 +62,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card mb-4 mb-md-0">
+
+                        <div style="width: 40px; margin:auto"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--carbon" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="currentColor" d="M30 30h-8V4h8zm-6-2h4V6h-4zm-4 2h-8V12h8zm-6-2h4V14h-4zm-4 2H2V18h8zm-6-2h4v-8H4z"></path></svg></div>
+
                         <div class="card-body">
+                            <small class="text-primary font-weight-bold">03</small>
                             <h5 class="card-title mt-3">FABRICATION<h5>
                             <p class="mb-0">In the fabrication stage, our team
                                 transforms raw marble and granite
@@ -55,9 +80,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card mb-4 mb-md-0">
+
+                        <div style="width: 40px; margin:auto"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M14 12c0-1.1-.9-2-2-2s-2 .9-2 2s.9 2 2 2s2-.9 2-2zm-2-9a9 9 0 0 0-9 9H0l4 4l4-4H5c0-3.87 3.13-7 7-7s7 3.13 7 7a6.995 6.995 0 0 1-11.06 5.7l-1.42 1.44A9 9 0 1 0 12 3z"></path></svg></div>
+
                         <div class="card-body">
+                            <small class="text-primary font-weight-bold">04</small>
                             <h5 class="card-title mt-3">INSTALLATION<h5>
                             <p class="mb-0">Our expert team will start the final
                                 installation process which

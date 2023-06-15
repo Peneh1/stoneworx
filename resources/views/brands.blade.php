@@ -11,24 +11,32 @@
 
 
  <!-- Brands Section -->
- <section class="section" id="testmonial">
-
-   
-        
-    
-
-
+ <section class="section portfolio-section"  id="portfolio">
     <div class="container">
         <div id="brands">
         <h6 class="section-title text-center mb-0"><a href="#brands"> Brands</a></h6>
         <h6 class="section-subtitle mb-5 text-center">We Carry</h6>
         </div>
-        
+        <div class="filters">
+            <a style="font-family: Raleway_Bold; font-size:24px;" href="#" data-filter=".new " class="active">
+             
+                Companies 
+             </a>
+             <a style="font-family: Raleway_Bold; font-size:24px;" href="#" data-filter=".stone">
+               Stone
+             </a>
+             
+         </div>
+       
+         
+         <div class="portfolio-container" style="justify-content: center;"> 
+
+
         @foreach ($brands as $brand)
 
 
-        <div class="row" style="justify-content: center;">
-            <div class=" my-3 my-md-0">
+        <div class="row new" style="justify-content: center;">
+            <div class=" my-3 my-md-0 portfolio-item">
                 <div class="card">
                     <div class="card-body">
                         <div class="media mb-3">
@@ -39,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" my-3 my-md-0">
+            <div class=" my-3 my-md-0 portfolio-item">
                 <div class="card">
                     <div class="card-body">
                         <div class="media mb-3">
@@ -53,7 +61,7 @@
                 </div>
             </div>
 
-                <div class=" my-3 my-md-0">
+                <div class=" my-3 my-md-0 portfolio-item">
                     <div class="card">
                         <div class="card-body">
                             <div class="media mb-3">
@@ -82,26 +90,20 @@
 
         @endforeach
         
-    </div>
-    <div style="margin-top:20%;" id="stone">
-        <h6 class="section-title text-center mb-0"><a href="#stone"> Natural Stone</a></h6>
-        <h6 class="section-subtitle mb-5 text-center"> We Carry</h6>
-        </div>
-        <div class="row" style="justify-content: center;">
+    
+           <div class="row stone">
 
-        <ul>
+        <ul class="portfolio-item">
 
         @foreach($stones as $i => $stone)
-                        <li style="margin:10px;">{{$stone}}</li>  
+                        <li style="margin:10px;">&bull; {{$stone}}</li>  
 
-                        @if($i %2 == 0)
-                    </div>
-                    <div class="row" style="justify-content: center;">
-                        @endif
+                  
                  
         @endforeach
         </ul>
         </div>
+    </div>{{--End perfolio cuntainer--}}
 </section>
 
 
