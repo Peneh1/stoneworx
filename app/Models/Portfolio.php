@@ -420,6 +420,18 @@ class Portfolio extends Model
                 
                ],
 
+               '1sullivanpl52units' => [
+                'img_src' => '/assets/imgs/portfolio/1sullivanpl52units/main.jpeg',
+                'title' => '1 Sullivan Pl <br> 52 Units',
+                'link' => '/portfolio/1sullivanpl52units',
+                'type' => 'commercial',
+                'inside_img_src' => [
+                  '/assets/imgs/portfolio/1sullivanpl52units/1.jpeg',
+                  '/assets/imgs/portfolio/1sullivanpl52units/2.jpeg',
+               ],
+                
+               ],
+
                '375dean143units' => [
                 'img_src' => '/assets/imgs/portfolio/375dean143units/main.jpeg',
                 'title' => '375 Dean <br> 143 Units',
@@ -432,7 +444,7 @@ class Portfolio extends Model
 
                '1' => [
                 'img_src' => '/assets/imgs/portfolio/residential/1.jpeg',
-                'title' => '375 Dean <br> 143 Units',
+                'title' => '',
                 'link' => '/portfolio/1',
                 'type' => 'residential',
                 'inside_img_src' => [
@@ -443,52 +455,33 @@ class Portfolio extends Model
 
                '2' => [
                 'img_src' => '/assets/imgs/portfolio/residential/2.jpeg',
-                'title' => '375 Dean <br> 143 Units',
+                'title' => '',
                 'link' => '/portfolio/2',
                 'type' => 'residential',
                 'inside_img_src' => [
                   '/assets/imgs/portfolio/residential/2.jpeg',
+                  '/assets/imgs/portfolio/residential/4.jpeg',
+
                ],
                 
                ],
 
                '3' => [
                 'img_src' => '/assets/imgs/portfolio/residential/3.jpeg',
-                'title' => '375 Dean <br> 143 Units',
+                'title' => '',
                 'link' => '/portfolio/3',
                 'type' => 'residential',
                 'inside_img_src' => [
                   '/assets/imgs/portfolio/residential/3.jpeg',
-               ],
-                
-               ],
-
-               '4' => [
-                'img_src' => '/assets/imgs/portfolio/residential/4.jpeg',
-                'title' => '375 Dean <br> 143 Units',
-                'link' => '/portfolio/4',
-                'type' => 'residential',
-                'inside_img_src' => [
-                  '/assets/imgs/portfolio/residential/4.jpeg',
-               ],
-                
-               ],
-
-               '5' => [
-                'img_src' => '/assets/imgs/portfolio/residential/5.jpeg',
-                'title' => '375 Dean <br> 143 Units',
-                'link' => '/portfolio/5',
-                'type' => 'residential',
-                'inside_img_src' => [
                   '/assets/imgs/portfolio/residential/5.jpeg',
+
                ],
                 
                ],
-
-
-
 
                
+
+                        
               
               
               
