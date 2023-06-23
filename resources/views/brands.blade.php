@@ -96,7 +96,18 @@
         <ul class="portfolio-item">
 
         @foreach($stones as $i => $stone)
-                        <li style="margin:10px;">&bull; {{$stone}}</li>  
+        <div class="card" style="width: 400px;">
+            <div class="card-body">
+                <div class="media mb-3">
+                      <img class="brand-img" style="width:50px; height:auto" src="{{$stone['img_src']}}" alt="{{$stone['name']}}"><br>
+                      <h4 class="pl-3">{{$stone['name']}} </h4>
+
+                   
+                 
+                </div>
+                
+            </div>
+        </div>
 
                   
                  

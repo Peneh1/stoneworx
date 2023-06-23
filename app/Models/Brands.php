@@ -76,13 +76,41 @@ class Brands extends Model
     }
     public static function stone(){
         return [
-            'Granite',
-            'Marble',
-            'Quartzite',
-            'Onyx',
-            'Limestone',
-            'Soapstone',
-            'Travertine',
+            [
+                'name' =>'Granite',
+                'img_src' => 'assets/imgs/stone/granite.png'
+            ],
+
+            [
+                'name' =>'Marble',
+                'img_src' => 'assets/imgs/stone/granite.png'
+            ],
+
+            [
+                'name' =>'Quartzite',
+                'img_src' => 'assets/imgs/stone/granite.png'
+            ],
+
+            [
+                'name' =>'Onyx',
+                'img_src' => 'assets/imgs/stone/granite.png'
+            ],
+
+            [
+                'name' =>'Limestone',
+                'img_src' => 'assets/imgs/stone/granite.png'
+            ],
+
+            [
+                'name' =>'Soapstone',
+                'img_src' => 'assets/imgs/stone/granite.png'
+            ],
+
+            [
+                'name' =>'Travertine',
+                'img_src' => 'assets/imgs/stone/granite.png'
+            ],
+            
         ];
     }
 }
