@@ -33,7 +33,7 @@ class contactController extends Controller
             <head>   <title>{$form['subject']}</title>    </head>
 
             <body> 
-            
+
             <p>{$form['message']}</p>
 
             <small>This request was submitted thru your website</small>
@@ -48,7 +48,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
 $headers .= "From: {$form['name']} <{$form['email']}>" . "\r\n";
-$headers .= 'Cc: myboss@example.com' . "\r\n";
+//$headers .= 'Cc: myboss@example.com' . "\r\n";
 
 $mail_sent = mail($to,$subject,$message,$headers);
 #end Email
