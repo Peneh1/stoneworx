@@ -3,4 +3,4 @@ deployment:
  tasks:
  - export DEPLOYPATH=/home/atifth2vwwar/public_html/
  - /bin/cp public/index.php $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp public/assets/css/leadmark.css $DEPLOYPATH
