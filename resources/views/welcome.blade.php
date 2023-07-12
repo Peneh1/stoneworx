@@ -35,13 +35,16 @@
                        
                         <div class="card-body">
                             <small class="text-primary font-weight-bold">01</small>
-                            <h5 class="card-title mt-3">SELECTION<h5>
-                            <p class="mb-0">Once materials have been chosen,
-                                our expert templators will visit the
-                                job site, and use high-end laser
-                                technology to ensure
-                                measurement accuracy.
-                                </p>
+                            <h5 class="card-title mt-3">MATERIAL SELECTION<h5>
+                            <p class="mb-0">The initial step in material
+                                selection involves allowing clients
+                                to handpick their preferred stones
+                                and granite. We value our clients'
+                                unique tastes and ensure they
+                                have the freedom to choose
+                                materials that resonate with their
+                                personal style and aesthetic
+                                preferences.</p>
                         </div>
                     </div>
                 </div>
@@ -147,7 +150,7 @@
                             <div class="media align-items-center mb-3">
                                 <img class="testmonials-img mr-3" src="assets/imgs/avatar.jpg" alt="">
                                 <div class="media-body">
-                                    <h6 class="mt-1 mb-0">John Doe</h6>
+                                    <h6 class="mt-1 mb-0">Yosef Honig</h6>
                                     <small class="text-muted mb-0">Commercial Contractor</small>     
                                 </div>
                             </div>
@@ -164,9 +167,9 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
-                                <img class="testmonials-img mr-3" src="assets/imgs/avatar-1.jpg" alt="">
+                                <img class="testmonials-img mr-3" src="assets/imgs/avatar.jpg" alt="">
                                 <div class="media-body">
-                                    <h6 class="mt-1 mb-0">Maria Garcia</h6>
+                                    <h6 class="mt-1 mb-0">Shlome Freid</h6>
                                     <small class="text-muted mb-0">Kitchen Company</small>      
                                 </div>
                             </div>
@@ -182,9 +185,9 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
-                                <img class="testmonials-img mr-3" src="assets/imgs/avatar-2.jpg" alt="">
+                                <img class="testmonials-img mr-3" src="assets/imgs/avatar.jpg" alt="">
                                 <div class="media-body">
-                                    <h6 class="mt-1 mb-0">Mason Miller</h6>
+                                    <h6 class="mt-1 mb-0">Moshie Miller</h6>
                                     <small class="text-muted mb-0">Commercial Contractor</small>        
                                 </div>
                             </div>

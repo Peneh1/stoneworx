@@ -20,10 +20,10 @@
         <div class="filters">
             <a style="font-family: Raleway_Bold; font-size:24px;" href="#" data-filter=".new " class="active">
              
-                Companies 
+                Quartz  
              </a>
              <a style="font-family: Raleway_Bold; font-size:24px;" href="#" data-filter=".stone">
-               Stone
+                Natural
              </a>
              
          </div>

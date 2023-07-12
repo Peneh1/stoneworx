@@ -61,14 +61,14 @@ class Brands extends Model
 
                [
                 
-                'img_url_1' => '',
-                'company_name_1' => '',
+                'img_url_1' => 'assets/imgs/brands/polarstone.jpg',
+                'company_name_1' => 'Polar Stone',
                 'img_url_2' => 'assets/imgs/brands/brands (3).svg',
                 'company_name_2' => 'EMER STONE',
                 'img_url_3' => 'assets/imgs/brands/brands (2).svg',
                 'company_name_3' => 'LG HAUSYS  VIATERA',
-                'img_url_4' => '',
-                'company_name_4' => '',
+                'img_url_4' => 'assets/imgs/brands/dekton.webp',
+                'company_name_4' => 'Dekton',
                ],
 
             
