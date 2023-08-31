@@ -25,7 +25,7 @@ class contactController extends Controller
         ]);
 
         #send Email
-        $to = "info@stoneworxcorp.com, info@peneh.com";
+        $to = "office@stoneworxcorp.com, jacob@stoneworxcorp.com";
         $subject = $form['subject'];
 
         $message = "
