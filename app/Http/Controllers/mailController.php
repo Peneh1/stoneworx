@@ -11,19 +11,19 @@ class mailController extends Controller
 
         $form = json_decode($request->getContent(), true);
 
-        if($form['name'] == ''):
+        if(trim($form['name']) == ''):
             return response()->json(['success' => false, 'msg' => 'Name Required']);
         endif;
 
-        if($form['email'] == ''):
+        if(trim($form['email']) == ''):
             return response()->json(['success' => false, 'msg' => 'Email Required']);
         endif;
 
-        if($form['subject'] == ''):
+        if(trim($form['subject']) == ''):
             return response()->json(['success' => false, 'msg' => 'Subject Required']);
         endif;
 
-        if($form['message'] == ''):
+        if(trim($form['message']) == ''):
             return response()->json(['success' => false, 'msg' => 'Message Required']);
         endif;
 
