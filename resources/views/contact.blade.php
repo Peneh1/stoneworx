@@ -17,9 +17,9 @@
 
             <div class="col-md-7" style="padding-top: 10%; padding-bottom: 10%">
                 
-                <p style="color:red" v-text="error"></p>
+                <p style="color:red" v-html="error"></p>
 
-                <p style="color:green" v-text="success"></p>
+                <p style="color:green" v-html="success"></p>
 
                 <form @submit.prevent="send()">
                     
