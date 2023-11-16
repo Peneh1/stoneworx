@@ -104,6 +104,7 @@ let App = {
           .then(res => res.json())
             .then(data => {
                 if(data.success === true){
+                    this.error = ''
                     this.success = data.msg;
                     this.model.name = '';
                     this.model.email = '';
@@ -112,8 +113,9 @@ let App = {
                     this.buttonText = 'Send'
 
                 } else {
+                    this.success = ''
                     this.error = data.msg
-                    this.buttonText = 'Send Again'
+                    this.buttonText = 'Send'
 
                 }
           })
