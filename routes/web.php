@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\mailController;
 use App\Http\Controllers\brandsController;
 use App\Http\Controllers\contactController;
 use App\Http\Controllers\homePageController;
@@ -25,7 +26,7 @@ Route::get('/portfolio/{id}', [portfolioController::class, 'show_portfolio']);
 
 Route::get('/contact', [contactController::class, 'contact']);
 
-Route::post('/contact', [contactController::class, 'handle_request']);
+Route::post('/contact/send', [mailController::class, 'index']);
 
 
 Route::get('/brands', [brandsController::class, 'brands']);
