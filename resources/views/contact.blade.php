@@ -38,8 +38,9 @@
                             <textarea name="message" id="" cols="30" rows="4" class="form-control rounded-0 bg-transparent" placeholder="Message" v-model="model.message"></textarea>
 
                         </div>
-                        <div class="form-group col-12 mb-0">
-                            <button type="submit" class="btn btn-primary rounded w-md mt-3" v-text="buttonText">Send</button>
+                        <div class="form-group col-12 mb-0" >
+                            
+                            <button type="submit" class="btn btn-primary rounded w-md mt-3" v-html="buttonText"></button>
                         </div>                          
                     </div>                          
                 </form>
@@ -93,7 +94,9 @@ let App = {
 
   methods: {
     send(){
-        this.buttonText = 'Sending...'
+        this.buttonText = '<span class="loader"></span>';
+        this.error = '';
+        this.success = '';
   fetch('contact/send', {
             method: 'POST',
             body: JSON.stringify(this.model),
@@ -110,12 +113,12 @@ let App = {
                     this.model.email = '';
                     this.model.subject = '';
                     this.model.message = '';
-                    this.buttonText = 'Send'
+                    this.buttonText = 'Send';
 
                 } else {
-                    this.success = ''
-                    this.error = data.msg
-                    this.buttonText = 'Send'
+                    this.success = '';
+                    this.error = data.msg;
+                    this.buttonText = 'Send';
 
                 }
           })
@@ -128,5 +131,34 @@ Vue.createApp(App).mount('#app');
 
            
             </script>
+            <style>
+ .loader {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: block;
+  margin:5px auto;
+  position: relative;
+  background: #FFF;
+  box-shadow: -24px 0 #FFF, 24px 0 #FFF;
+  box-sizing: border-box;
+  animation: shadowPulse 2s linear infinite;
+}
+
+@keyframes shadowPulse {
+  33% {
+    background: #FFF;
+    box-shadow: -24px 0 #FF3D00, 24px 0 #FFF;
+  }
+  66% {
+    background: #FF3D00;
+    box-shadow: -24px 0 #FFF, 24px 0 #FFF;
+  }
+  100% {
+    background: #FFF;
+    box-shadow: -24px 0 #FFF, 24px 0 #FF3D00;
+  }
+}
+                </style>
 
 @endsection

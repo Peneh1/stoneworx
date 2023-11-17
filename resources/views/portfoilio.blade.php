@@ -50,7 +50,7 @@
                 
             <div class="col-md-6 col-lg-4 new {{$portfolio['type']}} ">
                 <div class="portfolio-item">
-                    <img src="{{$portfolio['img_src']}}" class="img-fluid">
+                    <img src="{{$portfolio['img_src']}}" class="img-fluid" loading="lazy">
                     <div class="content-holder">
                         <a class="img-popup" href="{{$portfolio['img_src']}}"></a>
                         <div class="text-holder">

@@ -443,7 +443,7 @@ class Portfolio extends Model
                ],
 
                '1' => [
-                'img_src' => '/assets/imgs/portfolio/residential/1.jpeg',
+                'img_src' => '/assets/imgs/portfolio/residential/main1.jpeg',
                 'title' => '',
                 'link' => '/portfolio/1',
                 'type' => 'residential',
@@ -454,7 +454,7 @@ class Portfolio extends Model
                ],
 
                '2' => [
-                'img_src' => '/assets/imgs/portfolio/residential/2.jpeg',
+                'img_src' => '/assets/imgs/portfolio/residential/main2.jpeg',
                 'title' => '',
                 'link' => '/portfolio/2',
                 'type' => 'residential',
@@ -467,7 +467,7 @@ class Portfolio extends Model
                ],
 
                '3' => [
-                'img_src' => '/assets/imgs/portfolio/residential/3.jpeg',
+                'img_src' => '/assets/imgs/portfolio/residential/main3.jpeg',
                 'title' => '',
                 'link' => '/portfolio/3',
                 'type' => 'residential',
