@@ -26,16 +26,16 @@
                     <h4 class="mb-4">Drop Us A Line</h4>
                     <div class="form-row" style="padding-top: 10%">
                         <div class="form-group col-sm-4 ">
-                            <input ref="name" type="text" class="form-control rounded-0 bg-transparent" name="name" placeholder="Name" v-model="model.name">
+                            <input ref="name" type="text" class="form-control rounded-0 bg-transparent" name="name" placeholder="Name" v-model.trim.trim="model.name">
                         </div>
                         <div class="form-group col-sm-4 ">
-                            <input ref="email" type="email" class="form-control rounded-0 bg-transparent" name="email" placeholder="Email" v-model="model.email">
+                            <input ref="email" type="email" class="form-control rounded-0 bg-transparent" name="email" placeholder="Email" v-model.trim="model.email">
                         </div>
                         <div class="form-group col-sm-4 ">
-                            <input ref="subject" type="text" class="form-control rounded-0 bg-transparent" name="subject" placeholder="Subject" v-model="model.subject">
+                            <input ref="subject" type="text" class="form-control rounded-0 bg-transparent" name="subject" placeholder="Subject" v-model.trim="model.subject">
                         </div>
                         <div class="form-group col-12 ">
-                            <textarea ref="message" name="message" id="" cols="30" rows="4" class="form-control rounded-0 bg-transparent" placeholder="Message" v-model="model.message"></textarea>
+                            <textarea ref="message" name="message" id="" cols="30" rows="4" class="form-control rounded-0 bg-transparent" placeholder="Message" v-model.trim="model.message"></textarea>
 
                         </div>
                         <div class="form-group col-12 mb-0" >
