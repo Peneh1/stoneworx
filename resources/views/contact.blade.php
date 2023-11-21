@@ -94,6 +94,9 @@ let App = {
 
   methods: {
     send(){
+     
+         this.success = '';
+
 
         if(this.model.name == ''){
           this.error = 'Name is Required';
