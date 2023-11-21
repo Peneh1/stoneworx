@@ -131,7 +131,13 @@ let App = {
                 "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').content
               },   
           })
-          .then(res => res.json())
+          .then(res =>{
+            if (res.ok) { 
+                  return res.json();
+            }
+              this.error = 'Server Error';
+              this.buttonText = 'Send';
+           })
             .then(data => {
                 if(data.success === true){
                     this.success = data.msg;
@@ -147,7 +153,7 @@ let App = {
 
                 }
           })
-            .catch(err => console.log(err), this.error = 'Server Error', this.buttonText = 'Send')
+            .catch(err => console.log(err), )
 },
   }
 }
