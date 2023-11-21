@@ -26,16 +26,16 @@
                     <h4 class="mb-4">Drop Us A Line</h4>
                     <div class="form-row" style="padding-top: 10%">
                         <div class="form-group col-sm-4 ">
-                            <input type="text" class="form-control rounded-0 bg-transparent" name="name" placeholder="Name" v-model="model.name">
+                            <input ref="name" type="text" class="form-control rounded-0 bg-transparent" name="name" placeholder="Name" v-model="model.name">
                         </div>
                         <div class="form-group col-sm-4 ">
-                            <input type="email" class="form-control rounded-0 bg-transparent" name="email" placeholder="Email" v-model="model.email">
+                            <input ref="email" type="email" class="form-control rounded-0 bg-transparent" name="email" placeholder="Email" v-model="model.email">
                         </div>
                         <div class="form-group col-sm-4 ">
-                            <input type="text" class="form-control rounded-0 bg-transparent" name="subject" placeholder="Subject" v-model="model.subject">
+                            <input ref="subject" type="text" class="form-control rounded-0 bg-transparent" name="subject" placeholder="Subject" v-model="model.subject">
                         </div>
                         <div class="form-group col-12 ">
-                            <textarea name="message" id="" cols="30" rows="4" class="form-control rounded-0 bg-transparent" placeholder="Message" v-model="model.message"></textarea>
+                            <textarea ref="message" name="message" id="" cols="30" rows="4" class="form-control rounded-0 bg-transparent" placeholder="Message" v-model="model.message"></textarea>
 
                         </div>
                         <div class="form-group col-12 mb-0" >
@@ -94,9 +94,36 @@ let App = {
 
   methods: {
     send(){
+
+        if(this.model.name == ''){
+          this.error = 'Name is Required';
+          this.$refs.name.focus();
+          return;
+        }
+
+        if(this.model.email == ''){
+          this.error = 'Email is Required';
+          this.$refs.email.focus();
+          return;
+        }
+
+        if(this.model.subject == ''){
+          this.error = 'Subject is Required';
+          this.$refs.subject.focus();
+          return;
+        }
+
+        if(this.model.message == ''){
+          this.error = 'Message is Required';
+          this.$refs.message.focus();
+          return;
+       }
+
         this.buttonText = '<span class="loader"></span>';
+
         this.error = '';
         this.success = '';
+
   fetch('contact/send', {
             method: 'POST',
             body: JSON.stringify(this.model),
@@ -107,7 +134,6 @@ let App = {
           .then(res => res.json())
             .then(data => {
                 if(data.success === true){
-                    this.error = ''
                     this.success = data.msg;
                     this.model.name = '';
                     this.model.email = '';
@@ -116,13 +142,12 @@ let App = {
                     this.buttonText = 'Send';
 
                 } else {
-                    this.success = '';
                     this.error = data.msg;
                     this.buttonText = 'Send';
 
                 }
           })
-            .catch(err => console.log())
+            .catch(err => console.log(err), this.error = 'Server Error', this.buttonText = 'Send')
 },
   }
 }

@@ -3,31 +3,13 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="description" content="Stonworx your premier destination for custom granite and marble solutions.">
     <meta name="author" content="Devcrud">
     <title>{{$page_title}}</title>
     <!-- font icons -->
-    <link rel="stylesheet" href="/assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + LeadMark main styles -->
-	<link rel="stylesheet" href="/assets/css/leadmark.css">
+    <link rel="stylesheet" href="/assets/css/leadmark.css" lo>
 
-
-    <style>
-        @font-face {
-      font-family: 'raleway_regular';
-      src: url('/assets/fonts/Raleway/static/Raleway-Regular.ttf');
-    }
-    
-    @font-face {
-      font-family: 'raleway_thin';
-      src: url('/assets/fonts/Raleway/static/Raleway-Light.ttf');
-    }
-    
-    @font-face {
-      font-family: 'raleway_bold';
-      src: url('/assets/fonts/Raleway/static/Raleway-Bold.ttf');
-    }
-    </style>
 
 
 </head>
@@ -215,7 +197,25 @@ ul.social-icons {
             </footer>
 </div>
             <!-- End of Page Footer -->  
-        
+
+    <link rel="stylesheet" href="/assets/vendors/themify-icons/css/themify-icons.css">
+
+    <style>
+        @font-face {
+      font-family: 'raleway_regular';
+      src: url('/assets/fonts/Raleway/static/Raleway-Regular.ttf');
+    }
+    
+    @font-face {
+      font-family: 'raleway_thin';
+      src: url('/assets/fonts/Raleway/static/Raleway-Light.ttf');
+    }
+    
+    @font-face {
+      font-family: 'raleway_bold';
+      src: url('/assets/fonts/Raleway/static/Raleway-Bold.ttf');
+    }
+    </style>
 	
 	<!-- core  -->
     <script src="/assets/vendors/jquery/jquery-3.4.1.js"></script>
