@@ -40,7 +40,7 @@ class mailController extends Controller
          
         try{
 
-            Mail::to('info@peneh.com')->send(new contactForm($mailData));
+            Mail::to(['office@stoneworxcorp.com', 'jacob@stoneworxcorp.com'])->send(new contactForm($mailData));
 
             return response()->json(['success' => true, 'msg' => 'Thank you for getting in touch!<br>
             We appreciate you contacting us about <b>' . $form['subject'] . '</b>.<br> One of our customer happiness members will be getting back to you shortly. <br> Have a great day!']);
